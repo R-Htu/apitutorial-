@@ -12,7 +12,7 @@ def get_quote():
         window.title(f"{author} Says...")
         canvas.itemconfig(quote_text, text=quote, font=("Arial", 12, "italic"))
     else:
-        print("No quotes found in the response.")
+        print("No quotes found in the response :(.")
 
 window = Tk()
 window.title("Author Says ....")
